@@ -1,0 +1,126 @@
+@font-face {
+    font-family: PerfectIsland;
+    src: url(../../../../assets/fonts/Perfect_Island.otf);
+}
+
+.custom-banner {
+
+    .custom-headings {
+
+        h6 {
+            color: #8479E7;
+            font-family: PerfectIsland;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+
+        h1 {
+            color: #000;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 65px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 72px;
+            /* 110.769% */
+        }
+    }
+
+    .custom-small-content-area {
+
+        .small-content {
+
+            p {
+                color: #7C7C7C;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                /* 162.5% */
+            }
+        }
+    }
+
+    .btn-talk {
+        width: 162px;
+        height: 67px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        opacity: 0.99;
+        background: #E24141;
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+
+        &:hover {
+            width: 162px;
+            height: 67px;
+            flex-shrink: 0;
+            border-radius: 50px;
+            opacity: 0.99;
+            background: #E24141;
+            color: #FFF;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+        }
+    }
+
+    .btn-custom {
+
+        width: 162px;
+        height: 67px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        opacity: 0.99;
+        background: transparent;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+
+        &:hover,
+        &:active,
+        &:focus {
+            width: 162px;
+            height: 67px;
+            flex-shrink: 0;
+            border-radius: 50px;
+            opacity: 0.99;
+            background: #E24141;
+            color: #FFF;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+        }
+    }
+
+    .profile-container {
+
+        .profile-content {
+
+            img {
+                width: 555.715px;
+                height: 660px;
+                flex-shrink: 0;
+            }
+        }
+    }
+}
+
+
+.line {
+    border-top: 2px solid #000000;
+    width: 30px;
+}
