@@ -71,6 +71,13 @@
             font-weight: 700;
             line-height: 26px;
         }
+
+        img {
+            width: 22px;
+            height: 22px;
+            flex-shrink: 0;
+            margin-left: 10px;
+        }
     }
 
     .btn-custom {
@@ -103,6 +110,18 @@
             font-style: normal;
             font-weight: 700;
             line-height: 26px;
+
+            img {
+                filter: invert(1);
+            }
+        }
+
+        img {
+            width: 22px;
+            height: 22px;
+            flex-shrink: 0;
+            transition: all 0.3s;
+            margin-left: 10px;
         }
     }
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import './CustomBanner.scss';
 import farukh_sajjad from '../../../../assets/images/profile/farukh_sajjad.png';
+import connect from '../../../../assets/images/icons/general/connect.svg';
+import right_arrow from '../../../../assets/images/icons/general/right-arrow.svg';
 
 const CustomBanner = () => {
     return (
@@ -46,13 +48,13 @@ const CustomBanner = () => {
 
                                     <div className='col-md-3'>
 
-                                        <button className='btn btn-talk'>Lets Talk</button>
+                                        <button className='btn btn-talk'>Lets Talk <img src={connect} alt="Lets Talk" /> </button>
 
                                     </div>
 
                                     <div className='col-md-3'>
 
-                                        <button className='btn btn-custom'>Portfolio</button>
+                                        <button className='btn btn-custom'>Portfolio <img src={right_arrow} alt="Portfolio" /> </button>
 
                                     </div>
 

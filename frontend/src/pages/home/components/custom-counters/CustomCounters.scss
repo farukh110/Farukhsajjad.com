@@ -1,0 +1,35 @@
+.custom-counters {
+
+    .counter-circle {
+        border-radius: 269px;
+        background: #F0F5F5;
+        width: 269px;
+        height: 269px;
+        flex-shrink: 0;
+
+        .counter {
+            // color: #79B9E7;
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 55.655px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .navy-blue {
+            color: #79B9E7;
+        }
+
+        p {
+            color: #7C7C7C;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            text-transform: capitalize;
+        }
+    }
+}

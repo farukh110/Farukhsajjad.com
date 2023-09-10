@@ -1,0 +1,127 @@
+.connect-me-container {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../../../../assets/images/connect-me/connect-me.jpg) no-repeat center center / cover;
+        opacity: 0.1;
+    }
+}
+
+.connect-content {
+    h1 {
+        color: #000;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: relative;
+        z-index: 1;
+    }
+
+    p {
+        color: #000;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        position: relative;
+    }
+
+    .connect-row {
+        position: relative;
+
+        .btn-talk {
+            width: 162px;
+            height: 67px;
+            flex-shrink: 0;
+            border-radius: 50px;
+            opacity: 0.99;
+            background: #E24141;
+            color: #FFF;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+
+            &:hover {
+                width: 162px;
+                height: 67px;
+                flex-shrink: 0;
+                border-radius: 50px;
+                opacity: 0.99;
+                background: #E24141;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 26px;
+            }
+
+            img {
+                width: 22px;
+                height: 22px;
+                flex-shrink: 0;
+                margin-left: 10px;
+            }
+        }
+
+        .btn-custom {
+
+            width: 162px;
+            height: 67px;
+            flex-shrink: 0;
+            border-radius: 50px;
+            opacity: 0.99;
+            background: transparent;
+            color: #000000;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+
+            &:hover,
+            &:active,
+            &:focus {
+                width: 162px;
+                height: 67px;
+                flex-shrink: 0;
+                border-radius: 50px;
+                opacity: 0.99;
+                background: #E24141;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 26px;
+
+                img {
+                    filter: invert(1);
+                }
+            }
+
+            img {
+                width: 22px;
+                height: 22px;
+                flex-shrink: 0;
+                transition: all 0.3s;
+                margin-left: 10px;
+            }
+        }
+    }
+}
